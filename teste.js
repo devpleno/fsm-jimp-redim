@@ -1,6 +1,6 @@
 const Jimp = require('jimp')
 
-Jimp.read('tulio.jpg', (err, image) => {
+Jimp.read('tulio.png', (err, image) => {
   image
     // .resize(100, 100)
     .cover(50, 100)
